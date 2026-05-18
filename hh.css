@@ -1,0 +1,32 @@
+.hh-header, .hh-row {
+    display: grid;
+    grid-template-columns:
+        120px   /* Sipariş No */
+        120px   /* Tarih */
+        120px   /* Durum */
+        130px   /* Net Kâr */
+        130px   /* Brüt Kâr */
+        120px   /* Toplam */
+        180px   /* Müşteri */
+        150px;  /* Hesap Durumu */
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.hh-header {
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #555;
+}
+
+.hh-row:hover {
+    background: #f3f3f3;
+}
+
+.hh-col-id,
+.hh-col-net,
+.hh-col-brut,
+.hh-col-total {
+    font-weight: 600;
+}
