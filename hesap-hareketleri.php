@@ -2,7 +2,9 @@
 /*
 Plugin Name: Hesap Hareketleri
 Description: Sipariş hareketleri + özet (ÖDEME) satırları yöneten özel raporlama eklentisi.
-Version: 2.0
+Version: 2.1
+* GitHub Plugin URI: https://github.com/adminmagazify/hesap-hareketleri
+
 Author: Magazac
 */
 
@@ -15,7 +17,7 @@ $updateChecker = YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateCheck
 );
 
 $updateChecker->setBranch('main');
-
+$updateChecker->setAuthentication(null);
 
 
 
