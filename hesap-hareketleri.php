@@ -2,7 +2,7 @@
 /*
 Plugin Name: Hesap Hareketleri
 Description: Sipariş hareketleri + özet (ÖDEME) satırları yöneten özel raporlama eklentisi.
-Version: 2.1
+Version: 2.2
 * GitHub Plugin URI: https://github.com/adminmagazify/hesap-hareketleri
 
 Author: Magazac
@@ -39,7 +39,7 @@ add_action("wp_enqueue_scripts", function () {
 -------------------------------------------------------- */
 add_action("admin_menu", function () {
     add_menu_page(
-        "Hesap Hareketleri",
+        "Hesap Hareketleri 2.2",
         "Hesap Hareketleri",
         "manage_woocommerce",
         "hesap-hareketleri",
